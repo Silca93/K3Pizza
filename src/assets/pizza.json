@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "category": "Pizza",
+        "name": "Vesuvius",
+        "topping": [
+            "Tomato",
+            "Marinara Sauce",
+            "Mozarella",
+            "Ham"
+        ],
+        "price": 11,
+        "rank": 3,
+        "description": "Vesuvius pizza erupts with flavor, featuring a fiery combination of ripe tomatoes, zesty marinara sauce, melted mozzarella cheese, and savory ham slices. It's a culinary explosion that'll leave your taste buds craving more."
+    },
+    {
+        "id": 2,
+        "category": "Pizza",
+        "name": "Hawaii",
+        "topping": [
+            "Tomato",
+            "Marinara Sauce",
+            "Mozarella",
+            "Ham",
+            "Pineapple"
+        ],
+        "price": 13,
+        "rank": 1,
+        "description": "Transport yourself to the sunny shores of Hawaii with our delightful Hawaii pizza. Bursting with tropical flavors, it features succulent ham, juicy pineapple, and gooey mozzarella cheese atop a bed of tangy marinara sauce and fresh tomatoes. One bite, and you'll feel the warmth of the islands."
+    },
+    {
+        "id": 3,
+        "category": "Pizza",
+        "name": "Parma",
+        "topping": [
+            "Tomato",
+            "Arugula",
+            "Parmesan",
+            "Olive Oil"
+        ],
+        "price": 13,
+        "rank": 2,
+        "description": "Savor the taste of Italy with our Parma pizza. This culinary masterpiece features ripe tomatoes, peppery arugula, and savory Parmesan cheese drizzled with a hint of golden olive oil. It's a symphony of flavors that will transport you to the picturesque landscapes of Parma."
+    },
+    {
+        "id": 4,
+        "category": "Pizza",
+        "name": "Quatro fromagio",
+        "topping": [
+            "Fontina",
+            "Parmesan",
+            "Mozarella",
+            "Gorgonzola"
+        ],
+        "price": 12,
+        "description": "Indulge in a cheese lover's dream with our Quatro fromagi pizza. This decadent delight features a quartet of premium cheeses - creamy Fontina, nutty Parmesan, melty mozzarella, and tangy Gorgonzola. Each bite is a symphony of rich, velvety flavors that will leave you craving more."
+    },
+    {
+        "id": 5,
+        "category": "Pizza",
+        "name": "Bufalla",
+        "topping": [
+            "Tomato",
+            "Marinara Sauce",
+            "Mozarella di Bufala",
+            "Basil",
+            "Olive Oil"
+        ],
+        "price": 14,
+        "description": "Experience the taste of Italy with our Bufalla pizza. Crafted with love and authenticity, it features ripe tomatoes, tangy marinara sauce, creamy buffalo mozzarella, fragrant basil leaves, and a drizzle of extra virgin olive oil. It's a culinary journey to the heart of Naples."
+    },
+    {
+        "id": 6,
+        "category": "Pizza",
+        "name": "Anchovese",
+        "topping": [
+            "Tomato",
+            "Marinara Sauce",
+            "Mozarella",
+            "Anchovies"
+        ],
+        "price": 13.5,
+        "description": "Anchovy lovers rejoice with our Anchovese pizza. Topped with succulent tomatoes, zesty marinara sauce, gooey mozzarella cheese, and flavorful anchovy fillets, every bite is a burst of Mediterranean flavors that will tantalize your taste buds and leave you craving more."
+    },
+    {
+        "id": 7,
+        "category": "Pizza",
+        "name": "Napoli",
+        "topping": [
+            "Tomato",
+            "Marinara Sauce",
+            "Mozarella di Bufala",
+            "Basil"
+        ],
+        "price": 11,
+        "description": "Embark on a culinary journey to Naples with our Napoli pizza. This classic Italian delight features the finest ingredients, including ripe tomatoes, tangy marinara sauce, creamy buffalo mozzarella, and aromatic basil leaves. Each bite is a taste of tradition and authenticity that will transport you to the cobblestone streets of Naples."
+    },
+    {
+        "id": 7,
+        "category": "Pizza",
+        "name": "MolenPizza Special",
+        "topping": [
+        "Pesto Sauce",
+        "Feta Cheese",
+        "Black Olives",
+        "Red Onion"
+        
+        ],
+        "price": 14.5,
+        "description": "Transport yourself to the shores of the Mediterranean with our Mediterranean Delight pizza. Featuring a harmonious blend of sun-dried tomatoes, aromatic pesto sauce, tangy feta cheese, briny Kalamata olives, crisp red onion, and fresh spinach, each slice is a symphony of flavors that will whisk you away to a culinary paradise."
+    }
+]

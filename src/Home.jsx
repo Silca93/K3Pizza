@@ -18,8 +18,9 @@ export default function Home() {
 
         {pizzas.map((element, index) => {
                 return (
-        <div key={index} data={element} className="w-[20rem] h-[30rem] ">
-               <Link to="/K3Pizza_Eric/Details/">
+              <Link key={index} to={`/K3Pizza_Eric/Details/${index}`}>
+                <div className="w-[20rem] h-[30rem] ">
+               {/* <Link key={index} to={`/Details/${searchIndex(element)}`}> */}
 
                   <div className="flex justify-center">
 
@@ -40,8 +41,8 @@ export default function Home() {
                     </div>
                     </div>
                   </div>
-               </Link>
-            </div>
+                </div>
+              </Link>
             )
             })
         }

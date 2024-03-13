@@ -26,7 +26,7 @@ function App() {
     },
 
     {
-      path:"/K3Pizza_Eric/Details/",
+      path:"/K3Pizza_Eric/Details/:id",
       element: <Details/>,
       errorElement: <h1>404 Not Found</h1>
     }

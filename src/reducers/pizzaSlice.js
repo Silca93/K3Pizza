@@ -1,20 +1,25 @@
 import { createSlice } from "@reduxjs/toolkit";
-import pizzaData from './../assets/pizza.json'
 
 export const pizzaSlice = createSlice({
-    name:"pizza",
+    name:"panier",
     
-    initialState: pizzaData,
+    initialState: {
+        value: []
+    },
 
     reducers: {
-        addPizzas: (state, action) => {
-
+        addPizza : (state, action) => {
+            state.value.push(action.payload)
+            //state.value => panier => []
         },
-
-        
+        removePizza: (state, action) => {
+            const pizzaIndex = state.value.findIndex(pizza => pizza.id === action.payload); // Find index of pizza
+            if (pizzaIndex !== -1) {
+              state.value.splice(pizzaIndex, 1); 
+            }
+          },
     }
 })
 
-export const {addPizzas} = pizzaSlice.actions;
-
+export const {addPizza, removePizza} = pizzaSlice.actions;
 export default pizzaSlice.reducer;

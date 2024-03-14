@@ -22,7 +22,6 @@ export default function Details() {
     <>
      <Navbar/>
       <div className="w-dvw h-dvh bg-yellow-300 flex">
-        
           <div className="left w-1/2 flex flex-col justify-center items-center bg-yellow-300 relative">
             
             <Link to="/K3Pizza_Eric/">
@@ -40,25 +39,9 @@ export default function Details() {
                 <p >Price: {currentPizza? currentPizza.price + "€" : "no price" }</p>
               </div>
               <div className="w-full h-[3rem] flex justify-center items-center">
-                
                   <button onClick={() => {dispatch(addPizza(currentPizza)); console.log(panier);}} className="w-[9rem] h-[3rem] border-2 border-black">ADD TO BASKET</button>
-               
-              <h1>
-                  {
-                    panier.value.map((element) => {
-                      return (
-                        <p>{element.name}</p>
-                      )
-                    })
-                  }
-              </h1> 
-                
               </div>
           </div>
-          <div>
-            
-          </div>
-          ()
       </div>
     </>
   )

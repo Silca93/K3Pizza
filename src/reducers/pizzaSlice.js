@@ -10,14 +10,14 @@ export const pizzaSlice = createSlice({
     reducers: {
         addPizza : (state, action) => {
             state.value.push(action.payload)
-            //state.value => panier => []
+            
         },
         removePizza: (state, action) => {
-            const pizzaIndex = state.value.findIndex(pizza => pizza.id === action.payload); // Find index of pizza
+            const pizzaIndex = state.value.findIndex(pizza => pizza.id === action.payload); 
             if (pizzaIndex !== -1) {
               state.value.splice(pizzaIndex, 1); 
             }
-          },
+        },
     }
 })
 

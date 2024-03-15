@@ -4,6 +4,7 @@ import { useState } from "react";
 // import { addPizza } from "./reducers/pizzaSlice";
 import Navbar from './Navbar';
 import Footer from "./Footer";
+import Siderbar from "./Sidebar";
 import { Link } from "react-router-dom";
 import data from './assets/pizza.json';
 
@@ -40,10 +41,14 @@ export default function Home() {
     setFilteredPizzas(sortedPizzas);
   };
     
-  return (
-    <div className="w-dvw gap-4 flex-wrap">
+  
+  const [hover, setHover] = useState(false);
 
-      <Navbar/>
+  return (
+    <div className="w-dvw gap-4 flex-wrap relative">
+
+      <Navbar hover={hover} setHover={setHover}/>
+      {hover? <Siderbar/> : ""}
       <div className="w-full h-[7rem] flex flex-col justify-center items-center bg-[#0F4C5C]">
         <div className="w-full h-[150px] bg-[#0F4C5C] flex justify-between px-5 py-5">
           <input onChange={(e) => {setSearchVal(e.target.value), filterBySearch()}} type="text" placeholder="Filter by toppings" className="w-[15rem] h-[3rem] rounded-lg px-3 ml-5"/>
@@ -69,8 +74,8 @@ export default function Home() {
                   <div className="flex justify-center">
 
                     <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure className="PIZZAS overflow-hidden">
-                        <img className="py-2 object-cover" width="270px" src={element.image} alt={element.name} />
+                    <figure className="PIZZAS overflow-hidden h-[15rem]">
+                        <img className="py-2 object-cover w-[100%] h-[100%]"  src={element.image} alt={element.name} />
                     </figure>
                     <div className="card-body bg-[#9A031E] rounded-b-xl">
                         <h2 className="card-title text-white">
@@ -90,6 +95,7 @@ export default function Home() {
             })
         }
       </div>
+      
       <Footer/>
     </div>
   );

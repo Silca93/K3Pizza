@@ -10,6 +10,7 @@ export const pizzaSlice = createSlice({
     reducers: {
         addPizza : (state, action) => {
             state.value.push(action.payload)
+            console.log(state.value.length);
             
         },
         removePizza: (state, action) => {

@@ -44,18 +44,20 @@ export default function Home() {
     <div className="w-dvw gap-4 flex-wrap">
 
       <Navbar/>
-      <div className="w-full h-[7rem] flex flex-col justify-center items-center bg-yellow-400">
-        <h1 className="text-[3rem] text-center text-white">Welcome to MolenPizza</h1>
-        <input onChange={(e) => {setSearchVal(e.target.value), filterBySearch()}} type="text" placeholder="Filter by toppings" className="w-[15rem] h-[3rem] rounded-lg px-3"/>
-        <details className="dropdown">
-          <summary className="m-1 btn">Filter By</summary>
-          <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-            <li><a onClick={() => {setPrice('ascending'); filterByPrice();}}>Ascending Price</a></li>
-            <li><a onClick={() => {setPrice('descending'); filterByPrice();}}>Descending Price</a></li>
-          </ul>
-        </details>
+      <div className="w-full h-[7rem] flex flex-col justify-center items-center bg-[#0F4C5C]">
+        <div className="w-full h-[150px] bg-[#0F4C5C] flex justify-between px-5 py-5">
+          <input onChange={(e) => {setSearchVal(e.target.value), filterBySearch()}} type="text" placeholder="Filter by toppings" className="w-[15rem] h-[3rem] rounded-lg px-3 ml-5"/>
+          <details className="dropdown">
+            <summary className="m-1 btn mr-[3rem]">Filter By</summary>
+            <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-32">
+              <li><a onClick={() => {setPrice('ascending'); filterByPrice(); console.log('filtering ascending...');}}>Ascending Price</a></li>
+              <li><a onClick={() => {setPrice('descending'); filterByPrice(); console.log('filtering descending...');}}>Descending Price</a></li>
+            </ul>
+          </details>
+        </div>
+        
       </div>
-      <div className="pizzaCards w-dvw bg-yellow-400 flex gap-7 flex-wrap justify-center pt-5">
+      <div className="pizzaCards w-dvw bg-[#0F4C5C] flex gap-7 flex-wrap justify-center pt-5">
         
 
         {filteredPizzas.map((element, index) => {
@@ -70,11 +72,11 @@ export default function Home() {
                     <figure>
                         <img className="py-2" src="https://pizzeriasoleluna.ch/wp-content/uploads/2021/03/pizzeria-template-header-pizza-img.png"  alt={element.name} width="250px"/>
                     </figure>
-                    <div className="card-body bg-orange-300 rounded-b-xl">
-                        <h2 className="card-title">
+                    <div className="card-body bg-[#9A031E] rounded-b-xl">
+                        <h2 className="card-title text-white">
                         {(element.name).toUpperCase()}
                         </h2>
-                        <p className=""><strong>Toppings:</strong> {(element.topping).join(", ")}</p>
+                        <p className="text-white"><strong className="text-white">Toppings:</strong> {(element.topping).join(", ")}</p>
                         <div className="card-actions justify-end">
                           <button onClick={()=>{handleClick(), handleAdd()}} className="w-[4rem] h-[2rem] bg-black text-white rounded-2xl border-2 border-white mr-[6.5rem] mt-1">Order</button>
                         <div className="badge bg-white badge-outline w-[5rem] h-[2rem]"><p className="flex justify-center text-[17px] font-bold">{element.price} €</p></div>

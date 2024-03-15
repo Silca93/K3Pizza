@@ -108,5 +108,45 @@
         ],
         "price": 14.5,
         "description": "Transport yourself to the shores of the Molenbeek canal with our Mediterranean Delight pizza. Featuring a harmonious blend of sun-dried tomatoes, aromatic pesto sauce, tangy feta cheese, briny Kalamata olives, crisp red onion, and fresh spinach, each slice is a symphony of flavors that will bring you back to the bled."
+    },
+    
+{
+    "id": 8,
+    "category": "Pizza",
+    "name": "Pepperoni Classic",
+    "topping": [
+    "Tomato Sauce",
+    "Mozarella",
+    "Pepperoni"
+    ],
+    "price": 12,
+    "description": "Indulge in the timeless perfection of our Pepperoni Classic pizza. Loaded with rich tomato sauce, stretchy mozzarella cheese, and savory slices of pepperoni, every bite delivers a burst of bold and spicy flavors that pizza enthusiasts crave."
+    },
+    {
+    "id": 9,
+    "category": "Pizza",
+    "name": "Margherita",
+    "topping": [
+    "Tomato",
+    "Fresh Mozzarella",
+    "Basil",
+    "Olive Oil"
+    ],
+    "price": 10,
+    "description": "Savor the simplicity of Italy with our Margherita pizza. Crafted with fresh tomatoes, creamy mozzarella cheese, fragrant basil leaves, and a drizzle of extra virgin olive oil, each slice is a celebration of traditional flavors that will transport you to the sun-kissed hillsides of Naples."
+    },
+    {
+    "id": 10,
+    "category": "Pizza",
+    "name": "Vegetarian Supreme",
+    "topping": [
+    "Tomato Sauce",
+    "Mozarella",
+    "Mushrooms",
+    "Peppers"
+    
+    ],
+    "price": 13,
+    "description": "Experience the bounty of nature with our Vegetarian Supreme pizza. Bursting with colorful vegetables including mushrooms, bell peppers, red onions, and black olives atop a base of tangy tomato sauce and melty mozzarella cheese, each bite is a wholesome and satisfying journey for your taste buds."
     }
 ]

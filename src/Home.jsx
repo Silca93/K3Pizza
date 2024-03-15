@@ -57,7 +57,7 @@ export default function Home() {
         </div>
         
       </div>
-      <div className="pizzaCards w-dvw bg-[#0F4C5C] flex gap-7 flex-wrap justify-center pt-5">
+      <div className="pizzaCards w-dvw bg-[#0F4C5C] flex gap-7 flex-wrap justify-center py-5">
         
 
         {filteredPizzas.map((element, index) => {
@@ -69,8 +69,8 @@ export default function Home() {
                   <div className="flex justify-center">
 
                     <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure>
-                        <img className="py-2" src="https://pizzeriasoleluna.ch/wp-content/uploads/2021/03/pizzeria-template-header-pizza-img.png"  alt={element.name} width="250px"/>
+                    <figure className="PIZZAS overflow-hidden">
+                        <img className="py-2 object-cover" width="270px" src={element.image} alt={element.name} />
                     </figure>
                     <div className="card-body bg-[#9A031E] rounded-b-xl">
                         <h2 className="card-title text-white">

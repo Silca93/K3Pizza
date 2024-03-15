@@ -41,9 +41,9 @@ export default function Details() {
             </Link>
             <img className="animate-[spin_20s_infinite]" src="https://pizzeriasoleluna.ch/wp-content/uploads/2021/03/pizzeria-template-header-pizza-img.png" alt=""/>
           </div>
-          <div className="right w-1/2 flex justify-center items-center flex-col gap-4">
+          <div className="right w-1/2 flex justify-center items-start flex-col gap-4">
               
-            <h1 className="text-[2rem]">{currentPizza.name}:</h1>
+            <h1 className="text-[3rem]">{(currentPizza.name).toUpperCase()}</h1>
               <p className="pr-5 text-justify" >{currentPizza? currentPizza.description : "doesnt exist"}</p>
               <div className="text-white w-full flex justify-center pt-3">
                 <p >Price: {currentPizza? currentPizza.price + "€" : "no price" }</p>

@@ -29,7 +29,7 @@ export default function Details() {
                 <button className="w-[8rem] h-[3rem] border-2 border-black">BACK TO MENU</button>
               </div>
             </Link>
-            <img src="https://pizzeriasoleluna.ch/wp-content/uploads/2021/03/pizzeria-template-header-pizza-img.png" alt="" />
+            <img src="https://pizzeriasoleluna.ch/wp-content/uploads/2021/03/pizzeria-template-header-pizza-img.png" alt=""/>
           </div>
           <div className="right w-1/2 flex justify-center items-center flex-col gap-4">
               

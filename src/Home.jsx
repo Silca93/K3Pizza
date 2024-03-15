@@ -2,9 +2,10 @@ import React from "react";
 import { useState } from "react";
 // import { useDispatch, useSelector } from "react-redux";
 // import { addPizza } from "./reducers/pizzaSlice";
-import Navbar from './Navbar'
+import Navbar from './Navbar';
+import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import data from './assets/pizza.json'
+import data from './assets/pizza.json';
 
 export default function Home() {
 
@@ -87,6 +88,7 @@ export default function Home() {
             })
         }
       </div>
+      <Footer/>
     </div>
   );
 }

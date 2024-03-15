@@ -39,16 +39,19 @@ export default function Details() {
                 <button className="w-[8rem] h-[3rem] border-[1px] bg-[#9A031E] border-white rounded-xl absolute top-10 left-10 text-white active:bg-white active:text-black">BACK TO MENU</button>
               </div>
             </Link>
-            <img className="animate-[spin_20s_infinite]" src="https://pizzeriasoleluna.ch/wp-content/uploads/2021/03/pizzeria-template-header-pizza-img.png" alt=""/>
+            <div className="container w-[700px] h-[700px] border-[5px] border-white animate-[spin_70s_ease-in-out_infinite] rounded-full">
+
+              <img className="rounded-full " src={currentPizza.image} alt="" width="700px"/>
+            </div>
           </div>
           <div className="right w-1/2 flex justify-center items-start flex-col gap-4">
               
             <h1 className="text-[3rem]">{(currentPizza.name).toUpperCase()}</h1>
-              <p className="pr-5 text-justify" >{currentPizza? currentPizza.description : "doesnt exist"}</p>
-              <div className="text-white w-full flex justify-center pt-3">
+              <p className="pr-[50px] text-justify" >{currentPizza? currentPizza.description : "doesnt exist"}</p>
+              <div className="text-white w-full flex justify-start pt-3">
                 <p >Price: {currentPizza? currentPizza.price + "€" : "no price" }</p>
               </div>
-              <div className="w-full h-[3rem] flex justify-center items-center">
+              <div className="w-full h-[3rem] flex justify-start items-center">
                   <button onClick={() => {dispatch(addPizza(currentPizza), playSound()); console.log(panier);}} className="w-[9rem] h-[3rem] border-2 bg-[#9A031E] rounded-xl border-white active:bg-white active:text-black">ADD TO BASKET</button>
               </div>
           </div>

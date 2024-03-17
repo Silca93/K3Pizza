@@ -51,7 +51,7 @@ export default function Home() {
       {hover? <Siderbar/> : ""}
       <div className="w-full h-[7rem] flex flex-col justify-center items-center bg-[#0F4C5C]">
         <div className="w-full h-[150px] bg-[#0F4C5C] flex justify-between px-5 py-5">
-          <input onChange={(e) => {setSearchVal(e.target.value), filterBySearch()}} type="text" placeholder="Filter by toppings" className="w-[15rem] h-[3rem] rounded-lg px-3 ml-5"/>
+          <input onChange={(e) => {setSearchVal(e.target.value), filterBySearch()}} type="text" placeholder="Filter by toppings" className="w-[15rem] h-[3rem] mt-1 rounded-lg px-3 ml-5 max-[500px]:w-[8rem]"/>
           <details className="dropdown">
             <summary className="m-1 btn mr-[3rem]">Filter By</summary>
             <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-32">

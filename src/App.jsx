@@ -15,20 +15,20 @@ function App() {
 
   const router = createBrowserRouter ([
     {
-      path:"/K3Pizza_Eric/",
+      path:"/K3Pizza/",
       element:<Home />,
       errorElement:<h1>404 Not Found</h1>
 
     },
 
     {
-      path:"/K3Pizza_Eric/Order/",
+      path:"/K3Pizza/Order/",
       element:<Order/>,
       errorElement:<h1>404 Not Found</h1>
     },
 
     {
-      path:"/K3Pizza_Eric/Details/:id",
+      path:"/K3Pizza/Details/:id",
       element:<Details/>,
       errorElement: <h1>404 Not Found</h1>
     }

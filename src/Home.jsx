@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
-// import { useDispatch, useSelector } from "react-redux";
-// import { addPizza } from "./reducers/pizzaSlice";
+
 import Navbar from './Navbar';
 import Footer from "./Footer";
 import Siderbar from "./Sidebar";
@@ -10,7 +9,7 @@ import data from './assets/pizza.json';
 
 export default function Home() {
 
-  // const dispatch = useDispatch();
+  
   const pizzas = data
    
   //! filtering search bar//
@@ -51,7 +50,7 @@ export default function Home() {
       {hover? <Siderbar/> : ""}
       <div className="w-full h-[7rem] flex flex-col justify-center items-center bg-[#0F4C5C]">
         <div className="w-full h-[150px] bg-[#0F4C5C] flex justify-between px-5 py-5">
-          <input onChange={(e) => {setSearchVal(e.target.value), filterBySearch()}} type="text" placeholder="Filter by toppings" className="w-[15rem] h-[3rem] mt-1 rounded-lg px-3 ml-5 max-[500px]:w-[8rem]"/>
+          <input onChange={(e) => {setSearchVal(e.target.value), filterBySearch()}} type="text" placeholder="Filter by toppings" className="w-[15rem] h-[3rem] mt-1 rounded-lg px-3 ml-5 max-[500px]:w-[8rem] max-[500px]:text-[11px]"/>
           <details className="dropdown">
             <summary className="m-1 btn mr-[3rem]">Filter By</summary>
             <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-32">
@@ -67,7 +66,7 @@ export default function Home() {
 
         {filteredPizzas.map((element, index) => {
                 return (
-              <Link key={index} to={`/K3Pizza_Eric/Details/${index}`}>
+              <Link key={index} to={`/K3Pizza/Details/${index}`}>
                 <div className="w-[20rem] h-[30rem]">
                {/* <Link key={index} to={`/Details/${searchIndex(element)}`}> */}
 
@@ -75,7 +74,7 @@ export default function Home() {
 
                     <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="PIZZAS overflow-hidden h-[15rem]">
-                        <img className="py-2 object-cover w-[100%] h-[100%]"  src={element.image} alt={element.name} />
+                        <img className="object-cover w-[100%] h-[100%]"  src={element.image} alt={element.name} />
                     </figure>
                     <div className="card-body bg-[#9A031E] rounded-b-xl">
                         <h2 className="card-title text-white">

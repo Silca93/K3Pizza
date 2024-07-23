@@ -14,11 +14,11 @@ export default function Order() {
 
   return (
     <div className="w-dvw h-dvh bg-[#0F4C5C] flex flex-col justify-center items-center relative">
-      <Link to="/K3Pizza_Eric/">
+      <Link to="/K3Pizza/">
         <button className="w-[8rem] h-[3rem] border-[1px] bg-[#9A031E] border-white rounded-xl absolute top-10 left-10 text-white active:bg-white active:text-black">BACK TO MENU</button>
         </Link>
         <div className="w-[600px] max-[650px]:w-[450px] max-[500px]:w-[350px] h-[40rem] bg-[#9A031E] flex flex-col items-center gap-3 py-5 flex-wrap rounded-xl relative">
-          <div className="toppart w-full h-[10%] bg-green-400 flex justify-center items-center">
+          <div className="toppart w-full h-[10%]  flex justify-center items-center">
 
             <div className="titleContainer w-[10rem]  h-[3rem] bg-white flex justify-center items-center text-center rounded-xl ">
               <h1>Your Basket</h1>
@@ -30,7 +30,7 @@ export default function Order() {
                 panier.value.map((element, index) => {
                   return (
                     
-                      <div key={index} className="w-[25rem] max-[650px]:w-[20rem] h-[3.5rem] bg-white flex justify-between px-4 my-2 items-center rounded-2xl">
+                      <div key={index} className="w-[25rem] max-[650px]:w-[20rem] h-[3.5rem] bg-white flex justify-between  px-4 my-2 items-center rounded-2xl">
                         <div className='left'>
                           <p>{"1 x" + " " + element.name}</p>
                         </div>

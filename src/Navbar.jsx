@@ -20,7 +20,7 @@ export default function Navbar({hover, setHover}) {
 
           <img src={logo} alt=""  width="70px"/>
         </div>
-          <h1 className="text-[3rem]  text-white max-[1200px]:text-[2rem] max-[850px]:text-[1.5rem]">Welcome to MolenPie</h1>
+          <h1 className="text-[3rem]  text-white max-[1200px]:text-[2rem] max-[850px]:text-[1.5rem] max-[500px]:text-[1.2rem] max-[425px]:text-[1rem]">Welcome to MolenPie</h1>
       </div>
       <div className="w-[40%] h-[4rem] bg-[#9A031E] flex items-center justify-end px-5">
           <Link to="/K3Pizza/Order/">

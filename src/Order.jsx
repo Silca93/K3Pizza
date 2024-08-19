@@ -16,7 +16,7 @@ export default function Order() {
     <div className="w-dvw h-dvh bg-[#0F4C5C] flex flex-col justify-center items-center relative">
       <Link to="/K3Pizza/">
         <button className="w-[8rem] h-[3rem] border-[1px] bg-[#9A031E] border-white rounded-xl absolute top-10 left-10 text-white active:bg-white active:text-black">BACK TO MENU</button>
-        </Link>
+      </Link>
         <div className="w-[600px] max-[650px]:w-[450px] max-[500px]:w-[350px] h-[40rem] bg-[#9A031E] flex flex-col items-center gap-3 py-5 flex-wrap rounded-xl relative">
           <div className="toppart w-full h-[10%]  flex justify-center items-center">
 

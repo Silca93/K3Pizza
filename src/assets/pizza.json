@@ -1,9 +1,10 @@
+
 [
     {
         "id": 1,
         "category": "Pizza",
         "name": "Vesuvius",
-        "image":"https://th.bing.com/th/id/OIG4.GQfhP.uFhhb_SwCxJSPk?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "image":"./images/vesuvius.webp",
         "topping": [
             "Tomato",
             "Marinara Sauce",
@@ -18,7 +19,7 @@
         "id": 2,
         "category": "Pizza",
         "name": "Hawaii",
-        "image": "https://th.bing.com/th/id/OIG4.RWupqDhKdg6hCANXhzXW?pid=ImgGn",
+        "image": "./images/hawaii.webp",
         "topping": [
             "Tomato",
             "Marinara Sauce",
@@ -34,7 +35,7 @@
         "id": 3,
         "category": "Pizza",
         "name": "Parma",
-        "image": "https://th.bing.com/th/id/OIG3.fN.TSvpaRhjvsSapYhWv?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "image": "./images/parma.webp",
         "topping": [
             "Tomato",
             "Arugula",
@@ -49,7 +50,7 @@
         "id": 4,
         "category": "Pizza",
         "name": "Quatro fromagio",
-        "image": "https://th.bing.com/th/id/OIG1.Sl_4f9RF2k5pKkRHdcB9?pid=ImgGn",
+        "image": "./images/4fromagio.webp",
         "topping": [
             "Fontina",
             "Parmesan",
@@ -63,7 +64,7 @@
         "id": 5,
         "category": "Pizza",
         "name": "Buffala",
-        "image": "https://th.bing.com/th/id/OIG4.4m.bwo.rNV1Ch7bx3.Ki?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "image": "./images/buffala.webp",
         "topping": [
             "Marinara Sauce",
             "Mozarella Bufala",
@@ -77,7 +78,7 @@
         "id": 6,
         "category": "Pizza",
         "name": "Anchovese",
-        "image": "https://th.bing.com/th/id/OIG1.UgWy9crgTlHkLnue98uM?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "image": "./images/anchovese.webp",
         "topping": [
             "Tomato",
             "Marinara Sauce",
@@ -91,7 +92,7 @@
         "id": 7,
         "category": "Pizza",
         "name": "Napoli",
-        "image": "https://th.bing.com/th/id/OIG3.jqxtE.Ez.7M.6EkVLETv?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "image": "./images/napoli.webp",
         "topping": [
             "Tomato",
             "Marinara Sauce",
@@ -102,10 +103,10 @@
         "description": "Embark on a culinary journey to Naples with our Napoli pizza. This classic Italian delight features the finest ingredients, including ripe tomatoes, tangy marinara sauce, creamy buffalo mozzarella, and aromatic basil leaves. Each bite is a taste of tradition and authenticity that will transport you to the cobblestone streets of Naples."
     },
     {
-        "id": 7,
+        "id": 8,
         "category": "Pizza",
         "name": "MolenPie Special",
-        "image": "https://th.bing.com/th/id/OIG4.Y0Pd2NKf0qPt2N5S1Ljn?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "image": "./images/special.webp",
         "topping": [
         "Pesto Sauce",
         "Feta Cheese",
@@ -114,14 +115,14 @@
         
         ],
         "price": 14.5,
-        "description": "Transport yourself to the shores of the Molenbeek canal with our Mediterranean Delight pizza. Featuring a harmonious blend of sun-dried tomatoes, aromatic pesto sauce, tangy feta cheese, briny Kalamata olives, crisp red onion, and fresh spinach, each slice is a symphony of flavors that will bring you back to the bled."
+        "description": "Transport yourself to the shores of the Molenbeek canal with our Mediterranean Delight pizza. Featuring a harmonious blend of sun-dried tomatoes, aromatic pesto sauce, tangy feta cheese, briny Kalamata olives, red onion, and fresh spinach, each slice is a symphony of flavors that will bring you back to the bled."
     },
     
 {
-    "id": 8,
+    "id": 9,
     "category": "Pizza",
     "name": "Pepperoni Classic",
-    "image": "https://th.bing.com/th/id/OIG1.k4k.rxtH4jfizse1Db.T?w=1024&h=1024&rs=1&pid=ImgDetMain",
+    "image": "./images/pepperoni.webp",
     "topping": [
     "Tomato Sauce",
     "Mozarella",
@@ -131,10 +132,10 @@
     "description": "Indulge in the timeless perfection of our Pepperoni Classic pizza. Loaded with rich tomato sauce, stretchy mozzarella cheese, and savory slices of pepperoni, every bite delivers a burst of bold and spicy flavors that pizza enthusiasts crave."
     },
     {
-    "id": 9,
+    "id": 10,
     "category": "Pizza",
     "name": "Margherita",
-    "image":"https://th.bing.com/th/id/OIG3.s55bRfc7.eJwM8aJxNt2?w=1024&h=1024&rs=1&pid=ImgDetMain",
+    "image":"./images/marguerita.webp",
     "topping": [
     "Tomato",
     "Fresh Mozzarella",
@@ -145,10 +146,10 @@
     "description": "Savor the simplicity of Italy with our Margherita pizza. Crafted with fresh tomatoes, creamy mozzarella cheese, fragrant basil leaves, and a drizzle of extra virgin olive oil, each slice is a celebration of traditional flavors that will transport you to the sun-kissed hillsides of Naples."
     },
     {
-    "id": 10,
+    "id": 11,
     "category": "Pizza",
     "name": "Vegetarian Supreme",
-    "image": "https://th.bing.com/th/id/OIG2.TSFm1zyHcPPU8ngr1UYN?pid=ImgGn",
+    "image": "./images/vegetarian.webp",
     "topping": [
     "Tomato Sauce",
     "Mozarella",
@@ -157,6 +158,6 @@
     
     ],
     "price": 13,
-    "description": "Experience the bounty of nature with our Vegetarian Supreme pizza. Bursting with colorful vegetables including mushrooms, bell peppers, red onions, and black olives atop a base of tangy tomato sauce and melty mozzarella cheese, each bite is a wholesome and satisfying journey for your taste buds."
+    "description": " Bursting with colorful vegetables including mushrooms, bell peppers, red onions, and black olives atop a base of tangy tomato sauce and melty mozzarella cheese, each bite is a wholesome and satisfying journey for your taste buds."
     }
 ]

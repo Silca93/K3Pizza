@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import Siderbar from "./Sidebar";
 import { Link } from "react-router-dom";
 import data from './assets/pizza.json';
+// import vesuvius from './assets/vesuvius.webp';
 
 export default function Home() {
 
@@ -47,6 +48,7 @@ export default function Home() {
     <div className="w-dvw gap-4 flex-wrap relative">
 
       <Navbar hover={hover} setHover={setHover}/>
+      
       {hover? <Siderbar/> : ""}
       <div className="w-full h-[7rem] flex flex-col justify-center items-center bg-[#0F4C5C]">
         <div className="w-full h-[150px] bg-[#0F4C5C] flex justify-between px-5 py-5">
@@ -80,9 +82,10 @@ export default function Home() {
                         <h2 className="card-title text-white">
                         {(element.name).toUpperCase()}
                         </h2>
+                        
                         <p className="text-white"><strong className="text-white">Toppings:</strong> {(element.topping).join(", ")}</p>
                         <div className="card-actions justify-end">
-                          <button onClick={()=>{handleClick(), handleAdd()}} className="w-[4rem] h-[2rem] bg-black text-white rounded-2xl border-2 border-white mr-[6.5rem] mt-1">Order</button>
+                          <button onClick={()=>{handleClick(), handleAdd()}} className="w-[4rem] h-[2rem] bg-black text-white rounded-2xl border-2 border-white mr-[6.5rem] mt-1">view</button>
                         <div className="badge bg-white badge-outline w-[5rem] h-[2rem]"><p className="flex justify-center text-[17px] font-bold">{element.price} €</p></div>
                         </div>
                     </div>

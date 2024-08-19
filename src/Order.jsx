@@ -17,7 +17,7 @@ export default function Order() {
       <Link to="/K3Pizza/">
         <button className="w-[8rem] h-[3rem] border-[1px] bg-[#9A031E] border-white rounded-xl absolute top-10 left-10 text-white active:bg-white active:text-black">BACK TO MENU</button>
       </Link>
-        <div className="w-[600px] max-[650px]:w-[450px] max-[500px]:w-[350px] h-[40rem] bg-[#9A031E] flex flex-col items-center gap-3 py-5 flex-wrap rounded-xl relative">
+        <div className="w-[600px] max-[650px]:w-[450px] max-[500px]:w-[350px] h-[35rem] bg-[#9A031E] flex flex-col items-center gap-3 py-5 flex-wrap rounded-xl relative">
           <div className="toppart w-full h-[10%]  flex justify-center items-center">
 
             <div className="titleContainer w-[10rem]  h-[3rem] bg-white flex justify-center items-center text-center rounded-xl ">
@@ -46,7 +46,7 @@ export default function Order() {
                 }
               </div>  
 
-            <div className="h-[6%] w-[9rem] absolute bottom-2 right-[4rem] bg-white px-2 py-2  rounded-xl">
+            <div className="h-[6%] w-[9rem] absolute bottom-2 right-[4rem] bg-white px-2 py-2 pt-1  rounded-sm">
               <h1 className="text-xl ">Total : {totalPrice} € </h1>
             </div>
         </div>

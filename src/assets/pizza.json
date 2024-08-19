@@ -29,7 +29,7 @@
         ],
         "price": 13,
         "rank": 1,
-        "description": "Transport yourself to Hawaii with our delightful Hawaii pizza. with tropical flavors, it features succulent ham, juicy pineapple, and mozzarella cheese atop a bed of tangy marinara sauce and fresh tomatoes. One bite, and you'll feel the warmth of the sun."
+        "description": "Transport yourself to Hawaii with our Hawaii pizza. With tropical flavors, it features succulent ham, juicy pineapple, and mozzarella cheese atop a bed of tangy marinara sauce and fresh tomatoes. One bite, and you'll feel the warmth of the sun."
     },
     {
         "id": 3,
@@ -58,7 +58,7 @@
             "Gorgonzola"
         ],
         "price": 12,
-        "description": "Indulge in a cheese lover's dream with our Quatro fromagi pizza. This decadent delight features a quartet of premium cheeses - creamy Fontina, nutty Parmesan, melty mozzarella, and tangy Gorgonzola. Each bite is a symphony of rich, velvety flavors that will leave you craving more."
+        "description": "A cheese lover's dream. This delight features a quartet of premium cheeses - creamy Fontina, nutty Parmesan, melty mozzarella, and tangy Gorgonzola. Each bite is of rich, velvety flavors that will leave you craving more."
     },
     {
         "id": 5,
@@ -86,7 +86,7 @@
             "Anchovies"
         ],
         "price": 13.5,
-        "description": "Anchovy lovers rejoice with our Anchovese pizza. Topped with succulent tomatoes, zesty marinara sauce, gooey mozzarella cheese, and flavorful anchovy fillets, every bite is a burst of Mediterranean flavors that will tantalize your taste buds and leave you craving more."
+        "description": "Anchovy lovers rejoice! Topped with tomatoes, zesty marinara sauce, gooey mozzarella cheese, and flavorful anchovy, every bite is a burst of Mediterranean flavors that will tantalize your taste buds."
     },
     {
         "id": 7,
@@ -100,7 +100,7 @@
             "Basil"
         ],
         "price": 11,
-        "description": "Embark on a culinary journey to Naples with our Napoli pizza. This classic Italian delight features the finest ingredients, including ripe tomatoes, tangy marinara sauce, creamy buffalo mozzarella, and aromatic basil leaves. Each bite is a taste of tradition and authenticity that will transport you to the cobblestone streets of Naples."
+        "description": "This classic Italian delight features the finest ingredients, including tomatoes, tangy marinara sauce, buffalo mozzarella, and aromatic basil leaves. Each bite is a taste of tradition and authenticity that will transport you to the streets of Naples."
     },
     {
         "id": 8,
@@ -115,7 +115,7 @@
         
         ],
         "price": 14.5,
-        "description": "Transport yourself to the shores of the Molenbeek canal with our Mediterranean Delight pizza. Featuring a harmonious blend of sun-dried tomatoes, aromatic pesto sauce, tangy feta cheese, briny Kalamata olives, red onion, and fresh spinach, each slice is a symphony of flavors that will bring you back to the bled."
+        "description": "Transport yourself to the shores of the Molenbeek canal with our Mediterranean Delight pizza. Featuring a blend of sun-dried tomatoes, pesto sauce, feta cheese, Kalamata olives, red onion, and fresh spinach, each slice is a symphony of flavors that will bring you back to the bled."
     },
     
 {
@@ -143,7 +143,7 @@
     "Olive Oil"
     ],
     "price": 10,
-    "description": "Savor the simplicity of Italy with our Margherita pizza. Crafted with fresh tomatoes, creamy mozzarella cheese, fragrant basil leaves, and a drizzle of extra virgin olive oil, each slice is a celebration of traditional flavors that will transport you to the sun-kissed hillsides of Naples."
+    "description": "Savor the simplicity of Italy with our Margherita pizza. Crafted with fresh tomatoes, creamy mozzarella cheese, fragrant basil leaves, and a drizzle of extra virgin olive oil, each slice is a celebration of traditional flavours."
     },
     {
     "id": 11,
